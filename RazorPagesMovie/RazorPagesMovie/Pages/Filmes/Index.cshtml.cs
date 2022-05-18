@@ -10,6 +10,8 @@ using RazorPagesMovie.Models;
 
 namespace RazorPagesMovie.Pages.Filmes
 {
+#pragma warning disable CS8618
+#pragma warning disable CS8604
     public class IndexModel : PageModel
     {
         private readonly RazorPagesMovie.Data.RazorPagesMovieContext _context;
@@ -29,4 +31,6 @@ namespace RazorPagesMovie.Pages.Filmes
             }
         }
     }
+#pragma warning disable CS8618
+#pragma warning disable CS8604
 }

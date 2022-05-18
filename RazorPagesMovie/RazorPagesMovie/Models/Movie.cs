@@ -4,6 +4,7 @@ namespace RazorPagesMovie.Models
 {
     public class Movie
     {
+
         //campo ID é necessário para o banco de dados como chave primária
         public int ID { get; set; }
         public string Title { get; set; } = string.Empty;
@@ -14,4 +15,6 @@ namespace RazorPagesMovie.Models
         public string Genre { get; set; } = string.Empty;
         public decimal Price { get; set; }
     }
+
 }
+   
