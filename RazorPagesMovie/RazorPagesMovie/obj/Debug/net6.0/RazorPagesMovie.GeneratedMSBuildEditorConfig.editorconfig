@@ -19,6 +19,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/juliana.oliveira/Documents/GitHub/projeto_asp_net_razor_web/RazorPagesMovie/RazorPagesMovie/Pages/Filmes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juliana.oliveira/Documents/GitHub/projeto_asp_net_razor_web/RazorPagesMovie/RazorPagesMovie/Pages/Filmes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juliana.oliveira/Documents/GitHub/projeto_asp_net_razor_web/RazorPagesMovie/RazorPagesMovie/Pages/Filmes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juliana.oliveira/Documents/GitHub/projeto_asp_net_razor_web/RazorPagesMovie/RazorPagesMovie/Pages/Filmes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juliana.oliveira/Documents/GitHub/projeto_asp_net_razor_web/RazorPagesMovie/RazorPagesMovie/Pages/Filmes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/juliana.oliveira/Documents/GitHub/projeto_asp_net_razor_web/RazorPagesMovie/RazorPagesMovie/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
