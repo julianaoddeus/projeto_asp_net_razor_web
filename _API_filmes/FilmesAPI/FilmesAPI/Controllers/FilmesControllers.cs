@@ -1,12 +1,19 @@
-﻿using FilmesAPI.Models;
+﻿using FilmesAPI.Data;
+using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace FilmesAPI.Controllers
 {       
     [ApiController]
     [Route("[controller]")]
-    public class FilmesControllers : ControllerBase
+    public class FilmesController : ControllerBase
     {
+        private FilmeContext _context;
+        public FilmesController(FilmeContext context)
+        {
+            _context = context;
+        }
         private static List<Filme> filmes = new List<Filme>();
         private static int id = 1;
 
@@ -17,7 +24,7 @@ namespace FilmesAPI.Controllers
         {
             filme.Id = id++;
             filmes.Add(filme);
-            return CreatedAtAction(nameof(RecuperaFilmesPorId), new { id = filme.Id }, filme);
+            return CreatedAtAction(nameof(RecuperaFilmesPorId), new { Id = filme.Id }, filme);
         }
 
         [HttpGet]   
